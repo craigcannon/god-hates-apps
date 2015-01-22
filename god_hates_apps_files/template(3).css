@@ -1,0 +1,184 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Rave Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+/* Normal links ---*/
+a { color: #dd6710; }
+
+/* Meta ---*/
+
+.createby { color: #dd6710; }
+
+#ja-container ul.menu li.active a { color: #dd6710;}
+#ja-container ul.menu li.active li a:hover, #ja-container ul.menu li.active li.active a.active {
+	 color: #dd6710 !important;
+}
+#ja-botsl div.ja-box-ct li a:hover {
+	color: #dd6710;
+}
+
+h1.logo a {
+	background: url(../images/wcwbanner2012.png) no-repeat left !important;
+}
+
+#ja-mainnav .main .main-inner1{
+	background: url(../images/mainnav-bg.png) repeat-x top center !important;
+ }
+ 
+ #ja-footer .ja-copyright a:hover { color: #dd6710;}
+ 
+ div.ja-twitter center:hover {
+	background: #dd6710;
+}
+  
+ fieldset span.small {
+	color: #dd6710;
+}
+/* Bot spotlight ---*/
+#ja-botsl { 
+	border-color: #dd6710;
+}
+
+.rave ul li.active h3 {
+	color: #dd6710 !important;
+}
+
+.rave .ja-tab-subcontent li a {
+	color: #333;
+}
+
+.rave .ja-tab-subcontent li a:hover {
+	color: #dd6710;
+}
+
+.ja-content-main ul.pagination li span, .ja-content-main ul.pagination li a:hover {
+	color: #dd6710;
+}
+
+#form-login ul li a:hover { color: #dd6710;}
+
+#ja-container ul.menu li a:hover, #ja-container ul.menu li a:active {
+	color: #dd6710;
+}
+
+h2.contentheading a:hover, .contentheading a:hover {
+	color: #dd6710;
+}
+
+.ja-footnav ul li a:hover {
+	color: #dd6710;
+}
+
+.group-content .ja-box-ct p strong {
+	color: #dd6710;
+}
+
+#ja-container ul.menu li li:hover {
+	background: url(../images/arrow10.png) no-repeat scroll 0% 13px ;
+}
+
+#ja-container ul.menu li:hover { 
+	background: url(../images/arrow9.png) no-repeat scroll 96% 13px ;
+}
+
+input.button:hover {
+	color: #dd6710;
+}
+
+.rave .ja-tabs-title-top ul li.active h3 {
+	color: #dd6710 !important;
+}
+input.button:hover {
+	color: #dd6710;
+}
+
+#jac-wrapper #btlAddNewComment:hover {
+	color: #dd6710;
+}
+
+.rave .ja-tab-panels-top li a:hover, .rave .ja-tab-panels-top li a:focus, .rave .ja-tab-panels-top li a:active {
+	color: #dd6710 !important; 
+}
+
+.moduletable_highlight .ja-slide-desc a.readon {
+	color: #dd6710;
+}
+
+#login-form ul li a:hover,
+#login-form ul li a:focus,
+#login-form ul li a:active {
+	color: #dd6710; 
+}
+
+.ja-typo-blockct button:hover,
+.contact-form .button:hover {
+	color: #dd6710; 
+}
+
+input.button:hover {
+	color: #dd6710;
+}
+
+.login button.button:hover {
+	color: #dd6710;
+}
+
+/* Comment ----*/
+#jac-wrapper .comment-action a:hover { background: #dd6710; }
+
+#jac-wrapper .comment-contentholder:hover .comment-reply a,
+#jac-wrapper .comment-contentholder:hover .comment-reply a:hover {
+	background: #dd6710;
+}
+
+/* REPLY ACTION */
+#jac-wrapper .comment-contentholder:hover .comment-reply a,
+#jac-wrapper .comment-contentholder:hover .comment-reply a:hover {
+	background: #dd6710;
+}
+
+#jac-wrapper button.link:hover { color: #dd6710; }
+
+#jac-wrapper #btlAddNewComment:hover {
+	color: #dd6710;
+}
+
+#jac-wrapper #btlCancelComment {
+	color: #dd6710;
+}
+
+#jac-wrapper .comment-action a:hover { background: #dd6710; }
+
+#jac-wrapper .rank-high .comment-rankingresult { 
+	color: #dd6710;
+}
+
+.contentpane button:hover {
+	color: #dd6710;
+}
+
+.contentpane a { color: #dd6710; }
+
+.blogpage span.date {
+	color: #dd6710;
+}
+
+.bloglist .view-bloglist span.jitem-title a:hover,
+.bloglist .view-bloglist span.jitem-title a:focus,
+.bloglist .view-bloglist span.jitem-title a:active {
+	color: #dd6710;
+}
+
+div.categories-list.bloglist ul li .view-bloglist:hover {
+	border-color: #dd6710;
+}

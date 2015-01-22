@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Rave Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+/* 1st level */
+#ja-cssmenu {
+	margin-left: 11px;
+	height: 56px;
+}
+
+#ja-cssmenu li {
+	margin-right: 5px;
+}
+
+#ja-cssmenu li a {
+	text-transform: uppercase;
+	color: #aaa;
+	height: 52px;
+	line-height: 52px;
+	padding: 0px 10px;
+	font-weight: normal;
+}
+
+#ja-cssmenu li.active {
+	background: url(../../images/navtab-l.png) no-repeat left top;
+	padding-left: 5px;
+}
+
+#ja-cssmenu li.active a.active {
+	background: url(../../images/navtab-r.png) no-repeat right top;
+	color: #fff;
+	padding: 0px 10px 0px 5px;
+}
+
+#ja-cssmenu li a span.menu-title {
+	padding: 2px 10px;
+}
+
+#ja-cssmenu li.havechild a span.menu-title, 
+#ja-cssmenu li.havechildsfhover a span.menu-title{
+	background: none;
+}
+
+#ja-cssmenu li.sfhover, #ja-cssmenu li.active.sfhover {
+	background: url(../../images/navtab-l-hover.png) no-repeat left top;
+	padding-left: 5px;
+}
+#ja-cssmenu li.sfhover a.sfhover,#ja-cssmenu li.active.sfhover a.active.sfhover {
+	background: url(../../images/navtab-r-hover.png) no-repeat right top;
+	color: #555;
+	padding: 0px 10px 0px 5px;
+}
+
+/* 2nd level and above */
+#ja-cssmenu ul a {
+	width: 12.8em;
+}
+#ja-cssmenu li ul {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: 0;
+	color: #333;
+	margin-left: -1px;
+	padding: 10px 0px;
+}
+
+#ja-cssmenu li ul li { 
+	border-bottom: 1px dotted #ddd; padding: 0px; 
+	margin: 0px 15px; display: block;
+	width: 13.5em;
+} 
+
+#ja-cssmenu li ul li.first-item { border-top: 0; }
+
+#ja-cssmenu li ul li a {
+	text-transform:none;
+	color: #555;
+	height: auto;
+	line-height: normal;
+	padding: 7px 0px;
+	width: 13.4em;
+	background: none;
+}
+
+#ja-cssmenu li ul li a.sfhover, #ja-cssmenu li ul li.sfhover a.sfhover {
+	color: #9A2016;
+	background: none;
+	padding: 7px 0px;
+}
+#ja-cssmenu li ul li.active:hover, #ja-cssmenu li ul li.active.sfhover {
+	color: #9A2016;
+	background: none;
+	padding: 7px 0px;
+}
+
+#ja-cssmenu li ul li.active:hover a.active:hover,
+#ja-cssmenu li ul li.active.sfhover a.active.sfhover {
+	padding: 0px;
+	background: none;
+}
+#ja-cssmenu li ul li.active a.active {
+	color: #9A2016;
+	font-weight: bold;
+	background: none;
+	padding: 7px 0px;
+}
+
+#ja-cssmenu li.havesubchild a.haschild span.menu-title {
+	background: url(../../images/arrow5.png) no-repeat 100% center;
+}
+
+#ja-cssmenu li.havesubchildsfhover a.haschild.sfhover span.menu-title,
+#ja-cssmenu li.active.havesubchildsfhover a.active.haschild.sfhover span.menu-title, 
+#ja-cssmenu li.active.havesubchild a.active.haschild span.menu-title {
+	background: url(../../images/arrow9.png) no-repeat 100% center;
+}
+
+
+#ja-cssmenu li ul li.sfhover, #ja-cssmenu li ul li.active {
+	background: none;
+	padding: 0px;
+}
+
+#ja-cssmenu li li a span.menu-title {
+	padding: 0px ;
+}
+
+#ja-cssmenu li ul ul { border-top: solid 1px #ddd; }
+
+#ja-cssmenu li.havesubchild, #ja-cssmenu li.havesubchild-active  {
+	background: none !important;
+}

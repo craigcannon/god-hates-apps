@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Rave Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+
+#ja-cssmenu li.active {
+	background: url(../../images/navtab-l.png) no-repeat left top;
+}
+
+
+#ja-cssmenu li.active a.active {
+	background: url(../../images/navtab-r.png) no-repeat right top;
+}
+#ja-cssmenu li a span.menu-title {
+	padding: 0px 10px;
+}
+
+#ja-cssmenu li.havechild a span.menu-title, 
+#ja-cssmenu li.havechildsfhover a span.menu-title{
+	background: none;
+}
+
+/* 2nd level and above */
+
+#ja-cssmenu li ul li.first-item { border-top: 0; }
+
+#ja-cssmenu li ul li a.sfhover, #ja-cssmenu li ul li.sfhover a.sfhover {
+	color: #dd6710;
+	background: none;
+}
+
+#ja-cssmenu li ul li.active:hover, #ja-cssmenu li ul li.active.sfhover {
+	color: #dd6710;
+	background: none;
+}
+
+#ja-cssmenu li ul li.active a.active, #ja-cssmenu li ul li.active:hover a.active:hover,
+#ja-cssmenu li ul li.active.sfhover a.active.sfhover {
+	color: #dd6710;
+	background: none;
+}
+
+#ja-cssmenu li.havesubchild a.haschild span.menu-title {
+	background: url(../../images/arrow5.png) no-repeat 100% center;
+}
+
+#ja-cssmenu li.havesubchildsfhover a.haschild.sfhover span.menu-title,
+#ja-cssmenu li.active.havesubchildsfhover a.active.haschild.sfhover span.menu-title, 
+#ja-cssmenu li.active.havesubchild a.active.haschild span.menu-title {
+	background: url(../../images/arrow9.png) no-repeat 100% center;
+}
+
+#ja-cssmenu li ul li.sfhover, #ja-cssmenu li ul li.active {
+	background: none;
+	padding: 0px;
+}
+
+#ja-cssmenu li li a span.menu-title {
+	padding: 0px;
+}
